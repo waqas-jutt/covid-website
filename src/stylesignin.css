@@ -1,0 +1,100 @@
+.container{
+    background-color:#18BAAB;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    background-color: #AB1E5D;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.466), 0 6px 20px 0 rgba(250, 169, 169, 0.19);
+    min-width: 350px;
+    min-height: 550px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+    
+}
+.logo{
+    display: flex;
+    
+    size: 90px;
+    height: 60px;
+    text-align: center;
+    padding-left: 80px;
+   
+    
+}
+.logotitle{
+    color: white;
+    font-size: large;
+    display: flex;
+    padding-left: 6px;
+    
+
+}
+.Email,
+.Password{
+    
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+      font-weight: 700;
+        color: #68d6cb;
+     margin: 15px;
+    }
+    .Password{
+        margin-bottom: 40px;
+        
+    }
+    .Input{
+        height: 32px;
+        font-size: 20px;
+        outline: none;
+        width: 100%;
+        border-top-left-radius:none ;
+        border-top-right-radius: none;
+        border-right-style: none;
+        border-bottom-style: 2px solid black;
+        margin: bottom 10px; 
+        border-radius: 10px;
+   
+
+    }
+    .Submit{
+        
+        color: white;
+        background-color: rgba(255, 196, 0, 0.74);
+        display: flex;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        margin: auto;
+        cursor: pointer;
+        border:none;
+        transition: all 0.1s;
+        border-radius: 12px;
+        size-adjust: auto;
+    box-shadow: 0 2px 4px 0 rgba(2, 255, 255, 0.466), 0 6px 20px 0 rgba(0, 169, 169, 0.19);
+        position: absolute;
+        top: 300px;
+        margin-left: 270px;
+    }
+    
+    .remembox{
+        text-transform: lowercase;
+        padding: 10px 10px;
+
+        text-align: center;
+        color: aliceblue;
+        top: 240px;
+
+        margin-left: 250px;
+
+    }
+    .rememberme{
+    padding-left: 3px;
+        
+    }
